@@ -1,0 +1,86 @@
+0    DEBUG [2015-01-08 20:11:40]  Registered transport org.codehaus.xfire.transport.local.LocalTransport@51cdd8a
+7    DEBUG [2015-01-08 20:11:40]  Registered transport org.codehaus.xfire.transport.dead.DeadLetterTransport@184f6be2
+7    DEBUG [2015-01-08 20:11:40]  Registered transport org.codehaus.xfire.transport.http.SoapHttpTransport@1e965684
+7    DEBUG [2015-01-08 20:11:40]  Registered transport org.codehaus.xfire.transport.http.HttpTransport@4d95d2a2
+0    DEBUG [2015-01-08 20:57:01]  Registered transport org.codehaus.xfire.transport.local.LocalTransport@299a06ac
+22   DEBUG [2015-01-08 20:57:01]  Registered transport org.codehaus.xfire.transport.dead.DeadLetterTransport@7b3300e5
+22   DEBUG [2015-01-08 20:57:01]  Registered transport org.codehaus.xfire.transport.http.SoapHttpTransport@6a38e57f
+22   DEBUG [2015-01-08 20:57:01]  Registered transport org.codehaus.xfire.transport.http.HttpTransport@5577140b
+1079 DEBUG [2015-01-08 20:57:02]  Creating new channel for uri: urn:xfire:transport:http:14207218223370-197547637
+1098 DEBUG [2015-01-08 20:57:02]  adding handler org.codehaus.xfire.handler.OutMessageSender@731a74c to phase send
+1099 DEBUG [2015-01-08 20:57:02]  adding handler org.codehaus.xfire.soap.handler.SoapActionOutHandler@369f73a2 to phase transport
+1099 DEBUG [2015-01-08 20:57:02]  adding handler org.codehaus.xfire.soap.handler.SoapSerializerHandler@1f28c152 to phase post-invoke
+1103 DEBUG [2015-01-08 20:57:02]  Invoking phase post-invoke
+1104 DEBUG [2015-01-08 20:57:02]  Invoking handler org.codehaus.xfire.soap.handler.SoapSerializerHandler in phase post-invoke
+1106 DEBUG [2015-01-08 20:57:02]  Invoking phase policy
+1107 DEBUG [2015-01-08 20:57:02]  Invoking phase user
+1107 DEBUG [2015-01-08 20:57:02]  Invoking phase transport
+1107 DEBUG [2015-01-08 20:57:02]  Invoking handler org.codehaus.xfire.soap.handler.SoapActionOutHandler in phase transport
+1107 DEBUG [2015-01-08 20:57:02]  Invoking phase send
+1108 DEBUG [2015-01-08 20:57:02]  Invoking handler org.codehaus.xfire.handler.OutMessageSender in phase send
+1725 DEBUG [2015-01-08 20:57:02]  Received message to http://127.0.0.1:8080/song-account-api/user_api.ws
+1725 DEBUG [2015-01-08 20:57:02]  adding handler org.codehaus.xfire.client.CorrelatorHandler@2df32bf7 to phase pre-dispatch
+1725 DEBUG [2015-01-08 20:57:02]  adding handler org.codehaus.xfire.soap.handler.ReadHeadersHandler@530612ba to phase parse
+1741 DEBUG [2015-01-08 20:57:03]  adding handler org.codehaus.xfire.soap.handler.ValidateHeadersHandler@2a40cd94 to phase pre-invoke
+1741 DEBUG [2015-01-08 20:57:03]  adding handler org.codehaus.xfire.handler.LocateBindingHandler@f4168b8 to phase dispatch
+1741 DEBUG [2015-01-08 20:57:03]  adding handler org.codehaus.xfire.soap.handler.SoapActionInHandler@3bd94634 to phase dispatch
+1741 DEBUG [2015-01-08 20:57:03]  adding handler org.codehaus.xfire.soap.handler.SoapBodyHandler@58a90037 to phase dispatch
+1741 DEBUG [2015-01-08 20:57:03]  Invoking phase transport
+1741 DEBUG [2015-01-08 20:57:03]  Invoking phase parse
+1741 DEBUG [2015-01-08 20:57:03]  Invoking handler org.codehaus.xfire.soap.handler.ReadHeadersHandler in phase parse
+1741 DEBUG [2015-01-08 20:57:03]  Invoking phase pre-dispatch
+1741 DEBUG [2015-01-08 20:57:03]  Invoking handler org.codehaus.xfire.client.CorrelatorHandler in phase pre-dispatch
+1741 DEBUG [2015-01-08 20:57:03]  Correlating context with ID 14207218223521-320834684
+1741 DEBUG [2015-01-08 20:57:03]  Found correlated context with ID 14207218223521-320834684
+1741 DEBUG [2015-01-08 20:57:03]  adding handler org.codehaus.xfire.client.ClientReceiveHandler@276438c9 to phase service
+1741 DEBUG [2015-01-08 20:57:03]  Invoking phase dispatch
+1741 DEBUG [2015-01-08 20:57:03]  Invoking handler org.codehaus.xfire.handler.LocateBindingHandler in phase dispatch
+1741 DEBUG [2015-01-08 20:57:03]  Invoking handler org.codehaus.xfire.soap.handler.SoapBodyHandler in phase dispatch
+1788 DEBUG [2015-01-08 20:57:03]  Invoking handler org.codehaus.xfire.soap.handler.SoapActionInHandler in phase dispatch
+1788 DEBUG [2015-01-08 20:57:03]  Invoking phase policy
+1788 DEBUG [2015-01-08 20:57:03]  Invoking phase user
+1788 DEBUG [2015-01-08 20:57:03]  Invoking phase pre-invoke
+1788 DEBUG [2015-01-08 20:57:03]  Invoking handler org.codehaus.xfire.soap.handler.ValidateHeadersHandler in phase pre-invoke
+1788 DEBUG [2015-01-08 20:57:03]  Invoking phase service
+1788 DEBUG [2015-01-08 20:57:03]  Invoking handler org.codehaus.xfire.client.ClientReceiveHandler in phase service
+0    DEBUG [2015-01-08 20:57:24]  Registered transport org.codehaus.xfire.transport.local.LocalTransport@646d64ab
+16   DEBUG [2015-01-08 20:57:24]  Registered transport org.codehaus.xfire.transport.dead.DeadLetterTransport@2781e022
+16   DEBUG [2015-01-08 20:57:24]  Registered transport org.codehaus.xfire.transport.http.SoapHttpTransport@528931cf
+16   DEBUG [2015-01-08 20:57:24]  Registered transport org.codehaus.xfire.transport.http.HttpTransport@ea1a8d5
+688  DEBUG [2015-01-08 20:57:25]  Creating new channel for uri: urn:xfire:transport:http:14207218450080-1795379171
+704  DEBUG [2015-01-08 20:57:25]  adding handler org.codehaus.xfire.handler.OutMessageSender@6743e411 to phase send
+704  DEBUG [2015-01-08 20:57:25]  adding handler org.codehaus.xfire.soap.handler.SoapActionOutHandler@3eb25e1a to phase transport
+704  DEBUG [2015-01-08 20:57:25]  adding handler org.codehaus.xfire.soap.handler.SoapSerializerHandler@477b4cdf to phase post-invoke
+704  DEBUG [2015-01-08 20:57:25]  Invoking phase post-invoke
+704  DEBUG [2015-01-08 20:57:25]  Invoking handler org.codehaus.xfire.soap.handler.SoapSerializerHandler in phase post-invoke
+704  DEBUG [2015-01-08 20:57:25]  Invoking phase policy
+704  DEBUG [2015-01-08 20:57:25]  Invoking phase user
+704  DEBUG [2015-01-08 20:57:25]  Invoking phase transport
+704  DEBUG [2015-01-08 20:57:25]  Invoking handler org.codehaus.xfire.soap.handler.SoapActionOutHandler in phase transport
+704  DEBUG [2015-01-08 20:57:25]  Invoking phase send
+704  DEBUG [2015-01-08 20:57:25]  Invoking handler org.codehaus.xfire.handler.OutMessageSender in phase send
+1125 DEBUG [2015-01-08 20:57:25]  Received message to http://127.0.0.1:8080/song-account-api/user_api.ws
+1129 DEBUG [2015-01-08 20:57:25]  adding handler org.codehaus.xfire.client.CorrelatorHandler@5d0bf09b to phase pre-dispatch
+1129 DEBUG [2015-01-08 20:57:25]  adding handler org.codehaus.xfire.soap.handler.ReadHeadersHandler@793f29ff to phase parse
+1129 DEBUG [2015-01-08 20:57:25]  adding handler org.codehaus.xfire.soap.handler.ValidateHeadersHandler@3e8c3cb to phase pre-invoke
+1130 DEBUG [2015-01-08 20:57:25]  adding handler org.codehaus.xfire.handler.LocateBindingHandler@563f38c4 to phase dispatch
+1130 DEBUG [2015-01-08 20:57:25]  adding handler org.codehaus.xfire.soap.handler.SoapActionInHandler@543295b0 to phase dispatch
+1130 DEBUG [2015-01-08 20:57:25]  adding handler org.codehaus.xfire.soap.handler.SoapBodyHandler@54422e18 to phase dispatch
+1130 DEBUG [2015-01-08 20:57:25]  Invoking phase transport
+1130 DEBUG [2015-01-08 20:57:25]  Invoking phase parse
+1130 DEBUG [2015-01-08 20:57:25]  Invoking handler org.codehaus.xfire.soap.handler.ReadHeadersHandler in phase parse
+1130 DEBUG [2015-01-08 20:57:25]  Invoking phase pre-dispatch
+1130 DEBUG [2015-01-08 20:57:25]  Invoking handler org.codehaus.xfire.client.CorrelatorHandler in phase pre-dispatch
+1130 DEBUG [2015-01-08 20:57:25]  Correlating context with ID 14207218450081-1591764561
+1130 DEBUG [2015-01-08 20:57:25]  Found correlated context with ID 14207218450081-1591764561
+1130 DEBUG [2015-01-08 20:57:25]  adding handler org.codehaus.xfire.client.ClientReceiveHandler@74e28667 to phase service
+1130 DEBUG [2015-01-08 20:57:25]  Invoking phase dispatch
+1130 DEBUG [2015-01-08 20:57:25]  Invoking handler org.codehaus.xfire.handler.LocateBindingHandler in phase dispatch
+1130 DEBUG [2015-01-08 20:57:25]  Invoking handler org.codehaus.xfire.soap.handler.SoapBodyHandler in phase dispatch
+1177 DEBUG [2015-01-08 20:57:25]  Invoking handler org.codehaus.xfire.soap.handler.SoapActionInHandler in phase dispatch
+1177 DEBUG [2015-01-08 20:57:25]  Invoking phase policy
+1177 DEBUG [2015-01-08 20:57:25]  Invoking phase user
+1177 DEBUG [2015-01-08 20:57:25]  Invoking phase pre-invoke
+1177 DEBUG [2015-01-08 20:57:25]  Invoking handler org.codehaus.xfire.soap.handler.ValidateHeadersHandler in phase pre-invoke
+1177 DEBUG [2015-01-08 20:57:25]  Invoking phase service
+1177 DEBUG [2015-01-08 20:57:25]  Invoking handler org.codehaus.xfire.client.ClientReceiveHandler in phase service
