@@ -7,7 +7,7 @@ import java.io.Serializable;
  * 
  * @author 张松
  */
-public abstract class Result implements Serializable {
+public class Result implements Serializable {
 
 	private static final long serialVersionUID = 6785550014828467801L;
 

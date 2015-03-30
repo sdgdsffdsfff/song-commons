@@ -32,6 +32,14 @@ public interface SSOAuthCallback<A> {
 	 * @return
 	 */
 	public A getAuth(String sessionId);
+	
+	/**
+	 * 获取用户在RongCloud服务器上的Token（令牌）
+	 * @param sessionId
+	 * @param resAccountUri
+	 * @return
+	 */
+	public String getRongToken(String sessionId, String resAccountUri);
 
 	/**
 	 * 登入成功后，SESSION中保存在线用户身份信息
