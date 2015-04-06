@@ -12,46 +12,46 @@ public abstract class Pages extends Result {
 	private static final long serialVersionUID = -6716545993973050647L;
 
 	/** 当前页码 */
-	private int currPage;
+	private Integer currPage;
 
 	/** 页尺寸（显示数量） */
-	private int pageSize;
+	private Integer pageSize;
 
 	/** 数据总数 */
-	private int totalNum;
+	private Integer totalNum;
 
 	/** 总页数 */
-	private int totalPage;
+	private Integer totalPage;
 
-	public int getCurrPage() {
+	public Integer getCurrPage() {
 		return currPage;
 	}
 
-	public void setCurrPage(int currPage) {
+	public void setCurrPage(Integer currPage) {
 		this.currPage = currPage;
 	}
 
-	public int getPageSize() {
+	public Integer getPageSize() {
 		return pageSize;
 	}
 
-	public void setPageSize(int pageSize) {
+	public void setPageSize(Integer pageSize) {
 		this.pageSize = pageSize;
 	}
 
-	public int getTotalNum() {
+	public Integer getTotalNum() {
 		return totalNum;
 	}
 
-	public void setTotalNum(int totalNum) {
+	public void setTotalNum(Integer totalNum) {
 		this.totalNum = totalNum;
 	}
 
-	public int getTotalPage() {
+	public Integer getTotalPage() {
 		return totalPage;
 	}
 
-	public void setTotalPage(int totalPage) {
+	public void setTotalPage(Integer totalPage) {
 		this.totalPage = totalPage;
 	}
 
