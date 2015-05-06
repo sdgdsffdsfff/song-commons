@@ -6,6 +6,7 @@ import javax.servlet.http.HttpServletResponse;
 
 import com.song.commons.client.ClientSession;
 import com.song.commons.service.SSOAuthCallback;
+import com.song.commons.service.ServiceException;
 
 /**
  * 统一身份认证
@@ -48,7 +49,7 @@ public class SSOAuth<A> {
 	 * @return
 	 * @throws Exception 
 	 */
-	public A getCurrAuth() {
+	public A getCurrAuth() throws ServiceException {
 		String sessionId = this.getSessionId();
 		if (sessionId == null) {
 			return null;

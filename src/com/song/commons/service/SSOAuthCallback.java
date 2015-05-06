@@ -1,6 +1,5 @@
 package com.song.commons.service;
 
-
 /**
  * 统一身份认证服务
  * 
@@ -30,11 +29,14 @@ public interface SSOAuthCallback<A> {
 	 * 
 	 * @param sessionId
 	 * @return
+	 * @throws ServiceException
+	 *             用户登入状态可能出现异常情况
 	 */
-	public A getAuth(String sessionId);
-	
+	public A getAuth(String sessionId) throws ServiceException;
+
 	/**
 	 * 获取用户在RongCloud服务器上的Token（令牌）
+	 * 
 	 * @param sessionId
 	 * @param resAccountUri
 	 * @return
