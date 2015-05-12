@@ -1,6 +1,5 @@
 package com.song.commons.api;
 
-
 public class ApiException extends Exception {
 
 	private static final long serialVersionUID = 9060028080362777992L;
